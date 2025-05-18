@@ -69,15 +69,15 @@ const OfferSection = () => {
               </div>
             </div>
             
-            <div className="bg-blue-50 p-5 rounded-lg mb-8">
-              <h4 className="font-bold text-lg text-blue-800 mb-3">
+            <div className="p-5 rounded-lg mb-8 bg-orange-50">
+              <h4 className="font-bold text-lg text-orange-800 mb-3">
                 BÔNUS EXCLUSIVOS PRIMEIRA TURMA
               </h4>
               
               <div className="space-y-4">
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5 w-5 text-orange-500">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                     </svg>
                   </div>
@@ -89,7 +89,7 @@ const OfferSection = () => {
                 
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5 w-5 text-orange-500">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                     </svg>
                   </div>
@@ -101,7 +101,7 @@ const OfferSection = () => {
                 
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5 w-5 text-orange-500">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                     </svg>
                   </div>
@@ -113,7 +113,7 @@ const OfferSection = () => {
                 
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5 w-5 text-orange-500">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                     </svg>
                   </div>
@@ -125,7 +125,7 @@ const OfferSection = () => {
                 
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5 w-5 text-orange-500">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                     </svg>
                   </div>
@@ -144,7 +144,7 @@ const OfferSection = () => {
                 <span className="text-gray-600"> ou 12x de R$ 48,42</span>
               </div>
               
-              <Button className="text-white font-bold text-lg px-6 rounded-lg w-full shadow-lg transform transition-transform hover:scale-105 mb-4 py-[25px] bg-[#d8572a]">SIM! QUERO FAZER PARTE!</Button>
+              <Button className="text-white font-bold text-lg px-6 rounded-lg w-full shadow-lg transform transition-transform hover:scale-105 mb-4 py-[25px] bg-orange-600 hover:bg-orange-500">SIM! QUERO FAZER PARTE!</Button>
               
               <div className="flex justify-center space-x-4 text-sm text-gray-600">
                 <div className="flex items-center">
@@ -188,7 +188,7 @@ const OfferSection = () => {
         </div>
         
         <div className="text-center">
-          <p className="text-lg opacity-90 mb-4">
+          <p className="text-lg opacity-100 mb-4">
             Esta é uma oportunidade única para a primeira turma. As próximas edições terão valor superior e menos bônus.
           </p>
           <p className="font-medium">

@@ -1,14 +1,12 @@
-
 import { Button } from "@/components/ui/button";
-
 const MentorSection = () => {
   const scrollToSignup = () => {
     const element = document.getElementById("signup");
-    element?.scrollIntoView({ behavior: "smooth" });
+    element?.scrollIntoView({
+      behavior: "smooth"
+    });
   };
-
-  return (
-    <section className="py-16 px-4 bg-white">
+  return <section className="py-16 px-4 bg-white">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -59,7 +57,7 @@ const MentorSection = () => {
           </div>
         </div>
         
-        <div className="bg-blue-50 border border-blue-100 p-6 rounded-xl mb-10">
+        <div className="border border-orange-100 p-6 rounded-xl mb-10 bg-orange-50">
           <h3 className="text-xl font-bold mb-4 text-center">
             Por que decidi criar esta imersão?
           </h3>
@@ -85,18 +83,11 @@ const MentorSection = () => {
         </div>
         
         <div className="text-center">
-          <Button 
-            onClick={scrollToSignup}
-            size="lg"
-            variant="brand"
-            className="font-bold text-base md:text-lg rounded-lg shadow-lg transform transition-transform hover:scale-105 mx-4"
-          >
+          <Button onClick={scrollToSignup} size="lg" variant="brand" className="font-bold text-base md:text-lg rounded-lg shadow-lg transform transition-transform hover:scale-105 mx-4">
             QUERO APRENDER COM QUEM JÁ ESTÁ NO MERCADO
           </Button>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default MentorSection;

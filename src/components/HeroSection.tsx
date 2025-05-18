@@ -6,7 +6,7 @@ const HeroSection = () => {
       behavior: "smooth"
     });
   };
-  return <section className="bg-gradient-to-b from-blue-900 to-blue-700 text-white py-16 px-4">
+  return <section className="bg-gradient-to-b from-orange-600 to-blue-700 text-white py-16 px-4">
       <div className="container mx-auto max-w-5xl">
         <div className="text-center mb-8">
           <span className="inline-block bg-orange-600 font-bold px-4 py-1 rounded-full text-sm mb-6 text-white">
