@@ -1,26 +1,24 @@
-
 import { Button } from "@/components/ui/button";
-
 const ProofSection = () => {
   const scrollToSignup = () => {
     const element = document.getElementById("signup");
-    element?.scrollIntoView({ behavior: "smooth" });
+    element?.scrollIntoView({
+      behavior: "smooth"
+    });
   };
-
-  return (
-    <section className="py-16 px-4 bg-white">
+  return <section className="py-16 px-4 bg-white">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
           Um Mercado Validado e Uma Oportunidade Real
         </h2>
         
-        <div className="bg-blue-50 border border-blue-100 p-6 md:p-8 rounded-xl mb-10">
+        <div className="border border-orange-100 p-6 md:p-8 rounded-xl mb-10 bg-orange-50">
           <p className="text-lg mb-4 font-medium text-center">
             Esta é a primeira turma oficial da Imersão Método GTY, e você será parte do grupo pioneiro
           </p>
           
           <div className="mb-6 p-5 bg-white rounded-lg shadow-sm">
-            <h3 className="text-xl font-bold mb-4 text-blue-800">Resultados validados pelo criador do método:</h3>
+            <h3 className="text-xl font-bold mb-4 text-orange-600">Resultados validados pelo criador do método:</h3>
             
             <ul className="space-y-3 mb-4">
               <li className="flex items-center">
@@ -51,29 +49,29 @@ const ProofSection = () => {
           </div>
           
           <div className="p-5 bg-white rounded-lg shadow-sm mb-6">
-            <h3 className="text-xl font-bold mb-4 text-blue-800">Dados do setor (Fonte: ABRALAV):</h3>
+            <h3 className="text-xl font-bold mb-4 text-orange-600">Dados do setor (Fonte: ABRALAV):</h3>
             
             <ul className="space-y-3">
               <li className="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-500 mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5 w-5 text-orange-500 mr-2 mt-1">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                 </svg>
                 <span>O mercado de estética automotiva cresceu <strong>32% nos últimos 3 anos</strong> no Brasil</span>
               </li>
               <li className="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-500 mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5 w-5 text-orange-500 mr-2 mt-1">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                 </svg>
                 <span>Menos de <strong>8% dos serviços de lavagem</strong> no país utilizam o método a seco</span>
               </li>
               <li className="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-500 mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5 w-5 text-orange-500 mr-2 mt-1">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                 </svg>
                 <span>Crescente <strong>conscientização ambiental</strong> favorece métodos que economizam água</span>
               </li>
               <li className="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-500 mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5 w-5 text-orange-500 mr-2 mt-1">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                 </svg>
                 <span>Previsão de <strong>crescimento contínuo</strong> do setor nos próximos 5 anos</span>
@@ -89,17 +87,12 @@ const ProofSection = () => {
           </p>
           
           <div className="text-center">
-            <Button
-              onClick={scrollToSignup}
-              className="bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-3 rounded-lg"
-            >
+            <Button onClick={scrollToSignup} className="text-white font-bold px-6 py-3 rounded-lg bg-orange-600 hover:bg-orange-500">
               QUERO FAZER PARTE DESSE GRUPO PIONEIRO
             </Button>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ProofSection;
