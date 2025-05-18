@@ -3,9 +3,7 @@ const OfferSection = () => {
   return <section id="signup" className="py-16 px-4 bg-gradient-to-b from-blue-800 to-blue-900 text-white">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-8">
-          <span className="inline-block bg-#D8572A-500 font-bold px-4 py-1 rounded-full text-sm mb-4 text-blue-900">
-            OFERTA EXCLUSIVA PARA PRIMEIRA TURMA
-          </span>
+          
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
             Participe da Imersão Método GTY
           </h2>

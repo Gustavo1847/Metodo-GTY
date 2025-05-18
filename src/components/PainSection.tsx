@@ -1,14 +1,12 @@
-
 import { Button } from "@/components/ui/button";
-
 const PainSection = () => {
   const scrollToSignup = () => {
     const element = document.getElementById("signup");
-    element?.scrollIntoView({ behavior: "smooth" });
+    element?.scrollIntoView({
+      behavior: "smooth"
+    });
   };
-
-  return (
-    <section className="py-16 px-4 bg-white">
+  return <section className="py-16 px-4 bg-white">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
           Você Já Se Cansou de Trabalhar Muito e Ganhar Pouco?
@@ -55,7 +53,7 @@ const PainSection = () => {
           
           <ul className="space-y-4 mb-8">
             <li className="flex items-start">
-              <span className="text-blue-600 font-bold mr-2">➤</span>
+              <span className="text-orange-600 font-bold mr-2 text-[D8572A]">➤</span>
               <span>Está cansado de serviços que exigem muito esforço e pagam pouco</span>
             </li>
             <li className="flex items-start">
@@ -76,7 +74,7 @@ const PainSection = () => {
             </li>
           </ul>
           
-          <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-8">
+          <div className="bg-blue-50 border-l-4 border-orange-500 p-4 mb-8">
             <p className="italic">
               "Eu também já estive nessa situação. Trabalhando no Japão, longe da família, em jornadas de até 16 horas. Quando voltei ao Brasil, precisei recomeçar do zero e encontrei na lavagem automotiva uma oportunidade real."
             </p>
@@ -88,19 +86,12 @@ const PainSection = () => {
           </p>
           
           <div className="flex justify-center">
-            <Button 
-              onClick={scrollToSignup}
-              size="lg"
-              variant="brand"
-              className="font-bold text-base md:text-lg rounded-lg shadow-lg transform transition-transform hover:scale-105 mx-4"
-            >
+            <Button onClick={scrollToSignup} size="lg" variant="brand" className="font-bold text-base md:text-lg rounded-lg shadow-lg transform transition-transform hover:scale-105 mx-4">
               QUERO CONHECER ESSA OPORTUNIDADE
             </Button>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default PainSection;

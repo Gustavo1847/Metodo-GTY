@@ -1,20 +1,16 @@
-
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
-
 const ProductSection = () => {
   const scrollToSignup = () => {
     const element = document.getElementById("signup");
-    element?.scrollIntoView({ behavior: "smooth" });
+    element?.scrollIntoView({
+      behavior: "smooth"
+    });
   };
-
-  return (
-    <section className="py-16 px-4 bg-gray-100">
+  return <section className="py-16 px-4 bg-gray-100">
       <div className="container mx-auto max-w-4xl">
         <div className="mb-10 text-center">
-          <span className="inline-block bg-blue-600 text-white font-medium px-4 py-1 rounded-full text-sm mb-4">
-            CONHEÇA O
-          </span>
+          <span className="inline-block bg-blue-600 text-white font-medium px-4 py-1 rounded-full mb-4 text-xl">CONHEÇA</span>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Imersão Método GTY — Do Zero aos 10K com Lavagem a Seco
           </h2>
@@ -68,42 +64,42 @@ const ProductSection = () => {
           <div className="space-y-4">
             <div className="flex items-start">
               <div className="flex-shrink-0 mt-1">
-                <Check className="h-5 w-5 text-green-500"/>
+                <Check className="h-5 w-5 text-green-500" />
               </div>
               <p className="ml-3"><strong>Autonomia técnica total</strong> para lavar qualquer veículo utilizando o método a seco</p>
             </div>
             
             <div className="flex items-start">
               <div className="flex-shrink-0 mt-1">
-                <Check className="h-5 w-5 text-green-500"/>
+                <Check className="h-5 w-5 text-green-500" />
               </div>
               <p className="ml-3"><strong>Estratégia validada para atrair clientes</strong> rapidamente, mesmo começando do zero</p>
             </div>
             
             <div className="flex items-start">
               <div className="flex-shrink-0 mt-1">
-                <Check className="h-5 w-5 text-green-500"/>
+                <Check className="h-5 w-5 text-green-500" />
               </div>
               <p className="ml-3"><strong>Plano prático de precificação</strong> para maximizar seu lucro desde o primeiro carro</p>
             </div>
             
             <div className="flex items-start">
               <div className="flex-shrink-0 mt-1">
-                <Check className="h-5 w-5 text-green-500"/>
+                <Check className="h-5 w-5 text-green-500" />
               </div>
               <p className="ml-3"><strong>Kit inicial otimizado</strong> para iniciar com o mínimo necessário (investimento abaixo de R$500)</p>
             </div>
             
             <div className="flex items-start">
               <div className="flex-shrink-0 mt-1">
-                <Check className="h-5 w-5 text-green-500"/>
+                <Check className="h-5 w-5 text-green-500" />
               </div>
               <p className="ml-3"><strong>Suporte direto do criador do método</strong> durante toda a implementação (30 dias)</p>
             </div>
             
             <div className="flex items-start">
               <div className="flex-shrink-0 mt-1">
-                <Check className="h-5 w-5 text-green-500"/>
+                <Check className="h-5 w-5 text-green-500" />
               </div>
               <p className="ml-3"><strong>Roteiro de expansão</strong> para escalar de lavagens residenciais para frotas empresariais</p>
             </div>
@@ -111,16 +107,11 @@ const ProductSection = () => {
         </div>
         
         <div className="text-center">
-          <Button 
-            onClick={scrollToSignup}
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg px-8 py-5 rounded-lg shadow-lg transform transition-transform hover:scale-105"
-          >
+          <Button onClick={scrollToSignup} className="bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg px-8 py-5 rounded-lg shadow-lg transform transition-transform hover:scale-105">
             QUERO PARTICIPAR DA IMERSÃO GTY
           </Button>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ProductSection;
