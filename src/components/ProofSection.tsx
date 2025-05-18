@@ -87,7 +87,7 @@ const ProofSection = () => {
           </p>
           
           <div className="text-center">
-            <Button onClick={scrollToSignup} className="text-white font-bold px-6 py-3 rounded-lg bg-orange-600 hover:bg-orange-500">
+            <Button onClick={scrollToSignup} className="text-white font-bold px-6 rounded-lg bg-orange-600 hover:bg-orange-500 py-[30px]">
               QUERO FAZER PARTE DESSE GRUPO PIONEIRO
             </Button>
           </div>

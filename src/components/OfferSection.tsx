@@ -144,7 +144,7 @@ const OfferSection = () => {
                 <span className="text-gray-600"> ou 12x de R$ 48,42</span>
               </div>
               
-              <Button className="text-white font-bold text-lg px-6 rounded-lg w-full shadow-lg transform transition-transform hover:scale-105 mb-4 py-[25px] bg-orange-600 hover:bg-orange-500">SIM! QUERO FAZER PARTE!</Button>
+              <Button className="text-white font-bold text-lg px-6 rounded-lg w-full shadow-lg transform transition-transform hover:scale-105 mb-4 bg-orange-600 hover:bg-orange-500 py-[35px]">SIM! QUERO FAZER PARTE!</Button>
               
               <div className="flex justify-center space-x-4 text-sm text-gray-600">
                 <div className="flex items-center">

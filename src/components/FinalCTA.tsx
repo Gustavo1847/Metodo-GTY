@@ -68,9 +68,9 @@ const FinalCTA = () => {
                 <p className="text-2xl md:text-3xl font-bold">R$ 497 <span className="text-base font-normal opacity-80">ou 12x de R$ 48,42</span></p>
               </div>
               
-              <Button onClick={scrollToSignup} size="xl" className="text-white-900 font-bold text-base md:text-lg rounded-lg shadow-lg transform transition-transform hover:scale-105 mx-4 bg-orange-600 hover:bg-orange-500">
+              <Button onClick={scrollToSignup} size="xl" className="text-white-900 font-bold text-base md:text-lg rounded-lg shadow-lg transform transition-transform hover:scale-105 bg-orange-600 hover:bg-orange-500 mx-[10px]">
                 <span className="hidden md:inline">SIM! EU QUERO ENTRAR NA PRIMEIRA TURMA DO MÉTODO GTY E TRANSFORMAR MINHA REALIDADE</span>
-                <span className="md:hidden">QUERO ENTRAR NA PRIMEIRA TURMA DO MÉTODO GTY</span>
+                <span className="md:hidden font-bold">QUERO ENTRAR!</span>
               </Button>
               
               <div>
