@@ -1,12 +1,27 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { Button } from "@/components/ui/button";
+import HeroSection from "@/components/HeroSection";
+import PainSection from "@/components/PainSection";
+import ProductSection from "@/components/ProductSection";
+import ProofSection from "@/components/ProofSection";
+import ContentSection from "@/components/ContentSection";
+import OfferSection from "@/components/OfferSection";
+import MentorSection from "@/components/MentorSection";
+import FinalCTA from "@/components/FinalCTA";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="flex flex-col min-h-screen">
+      <HeroSection />
+      <PainSection />
+      <ProductSection />
+      <ProofSection />
+      <ContentSection />
+      <OfferSection />
+      <MentorSection />
+      <FinalCTA />
+      <Footer />
     </div>
   );
 };
