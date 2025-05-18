@@ -1,19 +1,17 @@
-
 import { Button } from "@/components/ui/button";
-
 const FinalCTA = () => {
   const scrollToSignup = () => {
     const element = document.getElementById("signup");
-    element?.scrollIntoView({ behavior: "smooth" });
+    element?.scrollIntoView({
+      behavior: "smooth"
+    });
   };
-
-  return (
-    <section className="py-16 px-4 bg-gray-100">
+  return <section className="py-16 px-4 bg-gray-100">
       <div className="container mx-auto max-w-4xl">
         <div className="bg-gradient-to-br from-blue-800 to-blue-900 text-white rounded-xl shadow-xl overflow-hidden">
           <div className="p-8 md:p-12">
             <div className="text-center mb-8">
-              <span className="inline-block bg-yellow-500 text-blue-900 font-bold px-4 py-1 rounded-full text-sm mb-4">
+              <span className="inline-block bg-orange-500 text-white-900 font-bold px-4 py-1 rounded-full text-sm mb-4">
                 ÚLTIMAS VAGAS DISPONÍVEIS
               </span>
               
@@ -70,11 +68,7 @@ const FinalCTA = () => {
                 <p className="text-2xl md:text-3xl font-bold">R$ 497 <span className="text-base font-normal opacity-80">ou 12x de R$ 48,42</span></p>
               </div>
               
-              <Button 
-                onClick={scrollToSignup}
-                size="xl"
-                className="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold text-base md:text-lg rounded-lg shadow-lg transform transition-transform hover:scale-105 mx-4"
-              >
+              <Button onClick={scrollToSignup} size="xl" className="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold text-base md:text-lg rounded-lg shadow-lg transform transition-transform hover:scale-105 mx-4">
                 <span className="hidden md:inline">SIM! EU QUERO ENTRAR NA PRIMEIRA TURMA DO MÉTODO GTY E TRANSFORMAR MINHA REALIDADE</span>
                 <span className="md:hidden">QUERO ENTRAR NA PRIMEIRA TURMA DO MÉTODO GTY</span>
               </Button>
@@ -88,8 +82,6 @@ const FinalCTA = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default FinalCTA;
