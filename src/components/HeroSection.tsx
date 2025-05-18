@@ -6,8 +6,8 @@ const HeroSection = () => {
       behavior: "smooth"
     });
   };
-  return <section className="bg-gradient-to-b from-blue-600 to-blue-700 text-white py-16 px-4">
-      <div style={{ textAlign: "center", marginBottom: "24px" }}>
+  return <section className="bg-white-900 text-black-900 py-16 px-4">
+      <div style={{ display: "flex", justifyContent: "center", marginBottom: "24px" }}>
         <img
           src="public/GTY Studio - ClaroTrans.png" // coloque aqui a URL real do seu logo
           alt="Logo GTY Studio"
@@ -39,17 +39,25 @@ const HeroSection = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
-          <div className="bg-blue-800 p-4 rounded-lg">
-            <p className="text-center font-medium">O mercado brasileiro movimenta bilhões por ano com estética automotiva</p>
+          <div className="bg-orange-50 p-4 rounded-lg">
+            <p className="text-center font-medium text-black">
+              O mercado brasileiro movimenta bilhões por ano com estética automotiva
+            </p>
           </div>
-          <div className="bg-blue-800 p-4 rounded-lg">
-            <p className="text-center font-medium">Lavagem a seco representa menos de 8% das operações</p>
+          <div className="bg-orange-50 p-4 rounded-lg">
+            <p className="text-center font-medium text-black">
+              Lavagem a seco representa menos de 8% das operações
+            </p>
           </div>
-          <div className="bg-blue-800 p-4 rounded-lg">
-            <p className="text-center font-medium">Baixo investimento e operação portátil</p>
+          <div className="bg-orange-50 p-4 rounded-lg">
+            <p className="text-center font-medium text-black">
+              Baixo investimento e operação portátil
+            </p>
           </div>
-          <div className="bg-blue-800 p-4 rounded-lg">
-            <p className="text-center font-medium">Modelo já validado pelo próprio criador</p>
+          <div className="bg-orange-50 p-4 rounded-lg">
+            <p className="text-center font-medium text-black">
+              Modelo já validado pelo próprio criador
+            </p>
           </div>
         </div>
       </div>

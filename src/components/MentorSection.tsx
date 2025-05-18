@@ -19,10 +19,12 @@ const MentorSection = () => {
         
         <div className="flex flex-col md:flex-row gap-8 items-center mb-10">
           <div className="w-full md:w-1/3">
-            <div className="bg-gray-300 rounded-lg h-80 flex items-center justify-center">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-              </svg>
+            <div className="rounded-lg h-80 md:h-[500px] overflow-hidden shadow-md">
+              <img
+                src="public/Perfil.jpeg" // ajuste se o nome do arquivo for outro
+                alt="Gustavo Yudi - Mentor GTY"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
           

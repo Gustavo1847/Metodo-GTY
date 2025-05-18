@@ -74,7 +74,7 @@ const PainSection = () => {
             </li>
           </ul>
           
-          <div className="bg-blue-50 border-l-4 border-orange-500 p-4 mb-8">
+          <div className="bg-gray-100 border-l-4 border-orange-500 p-4 mb-8">
             <p className="italic">
               "Eu também já estive nessa situação. Trabalhando no Japão, longe da família, em jornadas de até 16 horas. Quando voltei ao Brasil, precisei recomeçar do zero e encontrei na lavagem automotiva uma oportunidade real."
             </p>
@@ -86,7 +86,7 @@ const PainSection = () => {
           </p>
           
           <div className="flex justify-center">
-            <Button onClick={scrollToSignup} size="lg" variant="brand" className="font-bold text-base md:text-lg rounded-lg shadow-lg transform transition-transform hover:scale-105 mx-4">
+            <Button onClick={scrollToSignup} size="lg" variant="brand" className="text-white font-bold text-sm px-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 bg-orange-600 hover:bg-orange-500 py-[20px]">
               QUERO CONHECER ESSA OPORTUNIDADE
             </Button>
           </div>

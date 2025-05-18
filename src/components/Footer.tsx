@@ -2,7 +2,7 @@ const Footer = () => {
   return <footer className="bg-blue-900 text-gray-400 py-10 px-4">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center">
-          <p className="mb-4">© 2023 Método GTY - Todos os direitos reservados</p>
+          <p className="mb-4">© 2025 Método GTY - Todos os direitos reservados</p>
           
           <div className="flex flex-wrap justify-center gap-4 md:space-x-6 mb-6">
             <a href="#" className="hover:text-white py-2 px-3">Termos de Uso</a>
