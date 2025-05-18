@@ -1,12 +1,9 @@
-
 import { Button } from "@/components/ui/button";
-
 const OfferSection = () => {
-  return (
-    <section id="signup" className="py-16 px-4 bg-gradient-to-b from-blue-800 to-blue-900 text-white">
+  return <section id="signup" className="py-16 px-4 bg-gradient-to-b from-blue-800 to-blue-900 text-white">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-8">
-          <span className="inline-block bg-yellow-500 text-blue-900 font-bold px-4 py-1 rounded-full text-sm mb-4">
+          <span className="inline-block bg-#D8572A-500 font-bold px-4 py-1 rounded-full text-sm mb-4 text-blue-900">
             OFERTA EXCLUSIVA PARA PRIMEIRA TURMA
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
@@ -149,11 +146,7 @@ const OfferSection = () => {
                 <span className="text-gray-600"> ou 12x de R$ 48,42</span>
               </div>
               
-              <Button 
-                className="bg-green-600 hover:bg-green-700 text-white font-bold text-lg px-6 py-4 rounded-lg w-full shadow-lg transform transition-transform hover:scale-105 mb-4"
-              >
-                SIM! QUERO FAZER PARTE DA PRIMEIRA TURMA
-              </Button>
+              <Button className="text-white font-bold text-lg px-6 rounded-lg w-full shadow-lg transform transition-transform hover:scale-105 mb-4 py-[25px] bg-[#d8572a]">SIM! QUERO FAZER PARTE!</Button>
               
               <div className="flex justify-center space-x-4 text-sm text-gray-600">
                 <div className="flex items-center">
@@ -205,8 +198,6 @@ const OfferSection = () => {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default OfferSection;
