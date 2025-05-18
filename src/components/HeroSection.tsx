@@ -7,6 +7,14 @@ const HeroSection = () => {
     });
   };
   return <section className="bg-gradient-to-b from-blue-600 to-blue-700 text-white py-16 px-4">
+      <div style={{ textAlign: "center", marginBottom: "24px" }}>
+        <img
+          src="public/GTY Studio - ClaroTrans.png" // coloque aqui a URL real do seu logo
+          alt="Logo GTY Studio"
+          style={{ maxWidth: "180px", height: "auto" }}
+        />
+      </div>
+
       <div className="container mx-auto max-w-5xl">
         <div className="text-center mb-8">
           <span className="inline-block bg-orange-600 font-bold px-4 py-1 rounded-full text-sm mb-6 text-white">
