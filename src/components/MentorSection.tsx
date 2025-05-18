@@ -21,7 +21,7 @@ const MentorSection = () => {
           <div className="w-full md:w-1/3">
             <div className="rounded-lg h-80 md:h-[500px] overflow-hidden shadow-md">
               <img
-                src="public/Perfil.jpeg" // ajuste se o nome do arquivo for outro
+                src="/Perfil.jpeg" // ajuste se o nome do arquivo for outro
                 alt="Gustavo Yudi - Mentor GTY"
                 className="w-full h-full object-cover"
               />
