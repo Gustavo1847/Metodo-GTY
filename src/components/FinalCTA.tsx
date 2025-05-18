@@ -30,31 +30,31 @@ const FinalCTA = () => {
               
               <ul className="space-y-3">
                 <li className="flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-400 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5 w-5 text-orange-400 mr-3">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>3 sessões ao vivo do Método GTY</span>
                 </li>
                 <li className="flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-400 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5 w-5 text-orange-400 mr-3">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>30 dias de suporte direto com o criador do método</span>
                 </li>
                 <li className="flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-400 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5 w-5 text-orange-400 mr-3">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Plano de ação completo para alcançar R$10 mil em 60 dias</span>
                 </li>
                 <li className="flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-400 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5 w-5 text-orange-400 mr-3">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>5 bônus exclusivos para a primeira turma</span>
                 </li>
                 <li className="flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-400 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5 w-5 text-orange-400 mr-3">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Garantia dupla de satisfação e resultados</span>
@@ -68,7 +68,7 @@ const FinalCTA = () => {
                 <p className="text-2xl md:text-3xl font-bold">R$ 497 <span className="text-base font-normal opacity-80">ou 12x de R$ 48,42</span></p>
               </div>
               
-              <Button onClick={scrollToSignup} size="xl" className="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold text-base md:text-lg rounded-lg shadow-lg transform transition-transform hover:scale-105 mx-4">
+              <Button onClick={scrollToSignup} size="xl" className="text-white-900 font-bold text-base md:text-lg rounded-lg shadow-lg transform transition-transform hover:scale-105 mx-4 bg-orange-600 hover:bg-orange-500">
                 <span className="hidden md:inline">SIM! EU QUERO ENTRAR NA PRIMEIRA TURMA DO MÉTODO GTY E TRANSFORMAR MINHA REALIDADE</span>
                 <span className="md:hidden">QUERO ENTRAR NA PRIMEIRA TURMA DO MÉTODO GTY</span>
               </Button>

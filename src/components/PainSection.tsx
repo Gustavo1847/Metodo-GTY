@@ -12,7 +12,7 @@ const PainSection = () => {
           Você Já Se Cansou de Trabalhar Muito e Ganhar Pouco?
         </h2>
         
-        <div className="bg-gray-100 p-6 md:p-8 rounded-xl mb-10">
+        <div className="p-6 md:p-8 rounded-xl mb-10 bg-orange-50">
           <p className="mb-4 text-lg">
             Imagine a situação do <strong>Rafael Martins</strong>, 29 anos. 
             Há mais de 2 anos trabalhando como entregador de aplicativo, enfrentando:

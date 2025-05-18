@@ -1,7 +1,5 @@
-
 const Footer = () => {
-  return (
-    <footer className="bg-gray-900 text-gray-400 py-10 px-4">
+  return <footer className="bg-blue-900 text-gray-400 py-10 px-4">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center">
           <p className="mb-4">© 2023 Método GTY - Todos os direitos reservados</p>
@@ -19,8 +17,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
