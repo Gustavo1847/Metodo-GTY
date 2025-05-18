@@ -87,7 +87,9 @@ const MentorSection = () => {
         <div className="text-center">
           <Button 
             onClick={scrollToSignup}
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold px-4 md:px-8 py-3 md:py-4 rounded-lg shadow-lg transform transition-transform hover:scale-105 whitespace-normal text-base md:text-lg"
+            size="lg"
+            variant="brand"
+            className="font-bold text-base md:text-lg rounded-lg shadow-lg transform transition-transform hover:scale-105 mx-4"
           >
             QUERO APRENDER COM QUEM JÁ ESTÁ NO MERCADO
           </Button>

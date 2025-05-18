@@ -90,7 +90,9 @@ const PainSection = () => {
           <div className="flex justify-center">
             <Button 
               onClick={scrollToSignup}
-              className="bg-blue-600 hover:bg-blue-700 text-white font-bold text-base md:text-lg px-4 md:px-8 py-3 md:py-5 rounded-lg shadow-lg transform transition-transform hover:scale-105 whitespace-normal"
+              size="lg"
+              variant="brand"
+              className="font-bold text-base md:text-lg rounded-lg shadow-lg transform transition-transform hover:scale-105 mx-4"
             >
               QUERO CONHECER ESSA OPORTUNIDADE
             </Button>
