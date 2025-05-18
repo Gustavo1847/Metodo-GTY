@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="text-center">
           <p className="mb-4">© 2023 Método GTY - Todos os direitos reservados</p>
           
-          <div className="flex justify-center space-x-6 mb-6">
+          <div className="flex flex-wrap justify-center gap-4 md:space-x-6 mb-6">
             <a href="#" className="hover:text-white">Termos de Uso</a>
             <a href="#" className="hover:text-white">Política de Privacidade</a>
             <a href="#" className="hover:text-white">Contato</a>

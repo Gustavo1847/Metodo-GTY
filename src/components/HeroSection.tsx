@@ -29,7 +29,7 @@ const HeroSection = () => {
         <div className="flex justify-center mb-10">
           <Button 
             onClick={scrollToSignup}
-            className="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold text-lg px-8 py-6 rounded-lg shadow-lg transform transition-transform hover:scale-105"
+            className="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold text-base md:text-lg px-4 md:px-8 py-3 md:py-6 rounded-lg shadow-lg transform transition-transform hover:scale-105 whitespace-normal"
           >
             QUERO FAZER PARTE DESSA PRIMEIRA TURMA
           </Button>

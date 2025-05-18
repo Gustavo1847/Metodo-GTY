@@ -72,9 +72,10 @@ const FinalCTA = () => {
               
               <Button 
                 onClick={scrollToSignup}
-                className="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold text-lg px-8 py-6 rounded-lg shadow-lg transform transition-transform hover:scale-105"
+                className="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold text-base md:text-lg px-4 md:px-8 py-3 md:py-5 rounded-lg shadow-lg transform transition-transform hover:scale-105 whitespace-normal max-w-full"
               >
-                SIM! EU QUERO ENTRAR NA PRIMEIRA TURMA DO MÉTODO GTY E TRANSFORMAR MINHA REALIDADE
+                <span className="hidden md:inline">SIM! EU QUERO ENTRAR NA PRIMEIRA TURMA DO MÉTODO GTY E TRANSFORMAR MINHA REALIDADE</span>
+                <span className="md:hidden">QUERO ENTRAR NA PRIMEIRA TURMA DO MÉTODO GTY</span>
               </Button>
               
               <div>
