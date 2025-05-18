@@ -20,19 +20,19 @@ const PainSection = () => {
           
           <ul className="space-y-3 mb-6">
             <li className="flex items-start">
-              <span className="text-red-500 mr-2">✖</span>
+              <span className="text-red-500 mr-2 font-extrabold">X</span>
               <span>Jornadas exaustivas de 10-12 horas diárias</span>
             </li>
             <li className="flex items-start">
-              <span className="text-red-500 mr-2">✖</span>
+              <span className="text-red-500 mr-2 font-extrabold">X</span>
               <span>Instabilidade financeira completa (um dia bom, três ruins)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-red-500 mr-2">✖</span>
+              <span className="text-red-500 mr-2 font-extrabold text-base">X</span>
               <span>Risco constante no trânsito e insegurança nas entregas</span>
             </li>
             <li className="flex items-start">
-              <span className="text-red-500 mr-2">✖</span>
+              <span className="text-red-500 mr-2 text-left font-extrabold text-base">X</span>
               <span>Zero tempo para família e lazer</span>
             </li>
           </ul>
@@ -57,19 +57,19 @@ const PainSection = () => {
               <span>Está cansado de serviços que exigem muito esforço e pagam pouco</span>
             </li>
             <li className="flex items-start">
-              <span className="text-blue-600 font-bold mr-2">➤</span>
+              <span className="text-orange-600 font-bold mr-2">➤</span>
               <span>Sonha em empreender, mas não tem muito capital para investir</span>
             </li>
             <li className="flex items-start">
-              <span className="text-blue-600 font-bold mr-2">➤</span>
+              <span className="text-orange-600 font-bold mr-2">➤</span>
               <span>Gosta do universo automotivo e tem facilidade para aprender coisas práticas</span>
             </li>
             <li className="flex items-start">
-              <span className="text-blue-600 font-bold mr-2">➤</span>
+              <span className="text-orange-600 font-bold mr-2">➤</span>
               <span>Procura algo que possa começar como renda extra e crescer para se tornar sua principal atividade</span>
             </li>
             <li className="flex items-start">
-              <span className="text-blue-600 font-bold mr-2">➤</span>
+              <span className="text-orange-600 font-bold mr-2">➤</span>
               <span>Quer um negócio acessível, com demanda real e que não dependa de modismos</span>
             </li>
           </ul>
