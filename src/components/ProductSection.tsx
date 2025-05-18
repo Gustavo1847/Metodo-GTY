@@ -107,7 +107,7 @@ const ProductSection = () => {
         </div>
         
         <div className="text-center">
-          <Button onClick={scrollToSignup} className="text-white font-bold text-lg px-8 py-5 rounded-lg shadow-lg transform transition-transform hover:scale-105 bg-orange-600 hover:bg-orange-500">
+          <Button onClick={scrollToSignup} className="text-white font-bold text-lg px-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 bg-orange-600 hover:bg-orange-500 py-[35px]">
             QUERO PARTICIPAR DA IMERSÃO GTY
           </Button>
         </div>
