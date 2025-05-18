@@ -1,17 +1,15 @@
-
 import { Button } from "@/components/ui/button";
-
 const HeroSection = () => {
   const scrollToSignup = () => {
     const element = document.getElementById("signup");
-    element?.scrollIntoView({ behavior: "smooth" });
+    element?.scrollIntoView({
+      behavior: "smooth"
+    });
   };
-
-  return (
-    <section className="bg-gradient-to-b from-blue-900 to-blue-700 text-white py-16 px-4">
+  return <section className="bg-gradient-to-b from-blue-900 to-blue-700 text-white py-16 px-4">
       <div className="container mx-auto max-w-5xl">
         <div className="text-center mb-8">
-          <span className="inline-block bg-yellow-500 text-blue-900 font-bold px-4 py-1 rounded-full text-sm mb-6">
+          <span className="inline-block bg-orange-600 font-bold px-4 py-1 rounded-full text-sm mb-6 text-white">
             PRIMEIRA TURMA OFICIAL
           </span>
         </div>
@@ -27,11 +25,7 @@ const HeroSection = () => {
         </p>
         
         <div className="flex justify-center mb-10">
-          <Button 
-            onClick={scrollToSignup}
-            size="xl"
-            className="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold text-base md:text-lg md:px-10 rounded-lg shadow-lg transform transition-transform hover:scale-105 mx-4"
-          >
+          <Button onClick={scrollToSignup} size="xl" className="bg-orange-500 hover:bg-orange-600 text-white-900 font-bold text-base md:text-lg md:px-10 rounded-lg shadow-lg transform transition-transform hover:scale-105 mx-4 text-white">
             QUERO FAZER PARTE DESSA PRIMEIRA TURMA
           </Button>
         </div>
@@ -51,8 +45,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
