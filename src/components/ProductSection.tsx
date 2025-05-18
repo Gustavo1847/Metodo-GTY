@@ -10,7 +10,7 @@ const ProductSection = () => {
   return <section className="py-16 px-4 bg-gray-100">
       <div className="container mx-auto max-w-4xl">
         <div className="mb-10 text-center">
-          <span className="inline-block bg-blue-600 text-white font-medium px-4 py-1 rounded-full mb-4 text-xl">CONHEÇA</span>
+          <span className="inline-block bg-orange-600 text-white font-medium px-4 py-1 rounded-full mb-4 text-xl">CONHEÇA</span>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Imersão Método GTY — Do Zero aos 10K com Lavagem a Seco
           </h2>
