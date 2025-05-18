@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 const OfferSection = () => {
-  return <section id="signup" className="py-16 px-4 bg-gradient-to-b from-orange-800 to-orange-900 text-white bg-orange-500">
+  return <section id="signup" className="py-16 px-4 bg-gradient-to-b from-orange-600 to-orange-800 text-white bg-orange-500">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-8">
           
