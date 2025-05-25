@@ -1,12 +1,9 @@
 import { Button } from "@/components/ui/button";
 const PainSection = () => {
   const scrollToSignup = () => {
-    const element = document.getElementById("signup");
-    element?.scrollIntoView({
-      behavior: "smooth"
-    });
+    window.location.href = '/captura';
   };
-  return <section className="py-16 px-4 bg-white">
+  return <section className="bg-white">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
           Você Já Se Cansou de Trabalhar Muito e Ganhar Pouco?

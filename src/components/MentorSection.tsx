@@ -1,12 +1,9 @@
 import { Button } from "@/components/ui/button";
 const MentorSection = () => {
   const scrollToSignup = () => {
-    const element = document.getElementById("signup");
-    element?.scrollIntoView({
-      behavior: "smooth"
-    });
+    window.location.href = '/captura';
   };
-  return <section className="py-16 px-4 bg-white">
+  return <section className="bg-white">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -84,7 +81,7 @@ const MentorSection = () => {
           </p>
         </div>
         
-        <div className="text-center">
+        <div className="text-center mb-12">
           <Button onClick={scrollToSignup} size="lg" variant="brand" className="font-bold text-base md:text-lg rounded-lg shadow-lg transform transition-transform hover:scale-105 mx-4">
             QUERO APRENDER COM QUEM JÁ ESTÁ NO MERCADO
           </Button>

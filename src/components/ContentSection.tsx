@@ -2,12 +2,9 @@ import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 const ContentSection = () => {
   const scrollToSignup = () => {
-    const element = document.getElementById("signup");
-    element?.scrollIntoView({
-      behavior: "smooth"
-    });
+    window.location.href = 'captura';
   };
-  return <section className="py-16 px-4 bg-gray-100">
+  return <section className="bg-gray-100">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -169,7 +166,7 @@ const ContentSection = () => {
           </div>
         </div>
         
-        <div className="text-center">
+        <div className="text-center mb-14">
           <Button onClick={scrollToSignup} className="text-white font-bold text-lg px-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 bg-orange-600 hover:bg-orange-500 py-[35px]">
             QUERO DOMINAR ESTE MÉTODO COMPLETO
           </Button>

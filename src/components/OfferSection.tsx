@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 const OfferSection = () => {
-  return <section id="signup" className="py-16 px-4 bg-gradient-to-b from-orange-600 to-orange-800 text-white bg-orange-600">
+  return <section id="signup" className="bg-gradient-to-b from-orange-600 to-orange-800 text-white bg-orange-600">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-8">
           
@@ -144,7 +144,7 @@ const OfferSection = () => {
                 <span className="text-gray-600"> ou 12x de R$ 48,42</span>
               </div>
               
-              <Button className="text-white font-bold text-lg px-6 rounded-lg w-full shadow-lg transform transition-transform hover:scale-105 mb-4 bg-orange-600 hover:bg-orange-500 py-[35px]">SIM! QUERO FAZER PARTE!</Button>
+            <Button onClick={() => window.location.href = "/captura"} className="text-white font-bold text-lg px-6 rounded-lg w-full shadow-lg transform transition-transform hover:scale-105 mb-4 bg-orange-600 hover:bg-orange-500 py-[35px]">SIM! QUERO FAZER PARTE!</Button>
               
               <div className="flex justify-center space-x-4 text-sm text-gray-600">
                 <div className="flex items-center">
@@ -191,7 +191,7 @@ const OfferSection = () => {
           <p className="text-lg opacity-100 mb-4">
             Esta é uma oportunidade única para a primeira turma. As próximas edições terão valor superior e menos bônus.
           </p>
-          <p className="font-medium">
+          <p className="font-medium mb-14">
             Não perca a chance de transformar sua relação com trabalho e renda em 2023!
           </p>
         </div>

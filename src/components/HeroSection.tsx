@@ -1,15 +1,13 @@
 import { Button } from "@/components/ui/button";
 const HeroSection = () => {
   const scrollToSignup = () => {
-    const element = document.getElementById("signup");
-    element?.scrollIntoView({
-      behavior: "smooth"
-    });
+    window.location.href = '/captura';
   };
   return <section className="bg-white-900 text-black-900 py-16 px-4">
+      
       <div style={{ display: "flex", justifyContent: "center", marginBottom: "24px" }}>
         <img
-          src="/GTY Studio - ClaroTrans.webp" // coloque aqui a URL real do seu logo
+          src="/Metodo-GTY-Black-Trans.png" // coloque aqui a URL real do seu logo
           alt="Logo GTY Studio"
           style={{ maxWidth: "180px", height: "auto" }}
         />

@@ -14,14 +14,10 @@ import Captura from "@/components/Captura";
 const Index = () => {
   return (
     <div className="flex flex-col min-h-screen">
-      <HeroSection />
-      <PainSection />
-      <ProductSection />
-      <ProofSection />
-      <ContentSection />
-      <OfferSection />
-      <MentorSection />
-      <FinalCTA />
+      <div hidden>
+        <script async data-uid="98108de147" src="https://metodo-gty.kit.com/98108de147/index.js"></script>
+      </div>
+      <Captura />
       <Footer />
     </div>
   );

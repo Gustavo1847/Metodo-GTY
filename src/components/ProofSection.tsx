@@ -1,10 +1,7 @@
 import { Button } from "@/components/ui/button";
 const ProofSection = () => {
   const scrollToSignup = () => {
-    const element = document.getElementById("signup");
-    element?.scrollIntoView({
-      behavior: "smooth"
-    });
+    window.location.href = '/captura';
   };
   return <section className="py-16 px-4 bg-white">
       <div className="container mx-auto max-w-4xl">
@@ -12,7 +9,7 @@ const ProofSection = () => {
           Um Mercado Validado e Uma Oportunidade Real
         </h2>
         
-        <div className="border border-orange-100 p-6 md:p-8 rounded-xl mb-10 bg-orange-50">
+        <div className="border border-orange-100 p-6 md:p-8 rounded-xl mb-14 bg-orange-50">
           <p className="text-lg mb-4 font-medium text-center">
             Esta é a primeira turma oficial da Imersão Método GTY, e você será parte do grupo pioneiro
           </p>

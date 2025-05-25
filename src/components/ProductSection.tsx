@@ -2,12 +2,9 @@ import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 const ProductSection = () => {
   const scrollToSignup = () => {
-    const element = document.getElementById("signup");
-    element?.scrollIntoView({
-      behavior: "smooth"
-    });
+    window.location.href = '/captura';
   };
-  return <section className="py-16 px-4 bg-gray-100">
+  return <section className="bg-gray-100">
       <div className="container mx-auto max-w-4xl">
         <div className="mb-10 text-center">
           <span className="inline-block bg-orange-600 text-white font-medium px-4 py-1 rounded-full mb-4 text-xl">CONHEÇA</span>
@@ -106,7 +103,7 @@ const ProductSection = () => {
           </div>
         </div>
         
-        <div className="text-center">
+        <div className="text-center mb-14">
           <Button onClick={scrollToSignup} className="text-white font-bold text-lg px-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 bg-orange-600 hover:bg-orange-500 py-[35px]">
             QUERO PARTICIPAR DA IMERSÃO GTY
           </Button>

@@ -1,13 +1,10 @@
 import { Button } from "@/components/ui/button";
 const FinalCTA = () => {
   const scrollToSignup = () => {
-    const element = document.getElementById("signup");
-    element?.scrollIntoView({
-      behavior: "smooth"
-    });
+    window.location.href = "/captura"
   };
-  return <section className="py-16 px-4 bg-gray-100">
-      <div className="container mx-auto max-w-4xl">
+  return <section className="bg-gray-100">
+      <div className="container mx-auto max-w-4xl mb-14">
         <div className="bg-gradient-to-br from-blue-800 to-blue-900 text-white rounded-xl shadow-xl overflow-hidden">
           <div className="p-8 md:p-12">
             <div className="text-center mb-8">
