@@ -11,7 +11,7 @@ export default function LeadCapture() {
           async
         ></script>
       </Head>
-      <div style={{ display: "flex", justifyContent: "center", marginBottom: "24px" }}>
+      <div style={{ display: "flex", justifyContent: "center", marginBottom: "0px" }}>
         <img
           src="/Metodo-GTY-Black-Trans.png" // coloque aqui a URL real do seu logo
           alt="Logo GTY Studio"
@@ -20,7 +20,7 @@ export default function LeadCapture() {
       </div>
 
       <div className="container mx-auto max-w-5xl">
-        <div className="text-center mb-8">
+        <div className="text-center mb-10">
           <span className="inline-block bg-orange-600 font-bold px-4 py-1 rounded-full text-sm mb-6 text-white">
             PRIMEIRA TURMA OFICIAL
           </span>
@@ -35,7 +35,7 @@ export default function LeadCapture() {
   data-version="5"
   data-options="{&quot;settings&quot;:{&quot;after_subscribe&quot;:{&quot;action&quot;:&quot;message&quot;,&quot;success_message&quot;:&quot;Agora você faz parte da lista VIP!&quot;,&quot;redirect_url&quot;:&quot;&quot;},&quot;analytics&quot;:{&quot;google&quot;:null,&quot;fathom&quot;:null,&quot;facebook&quot;:null,&quot;segment&quot;:null,&quot;pinterest&quot;:null,&quot;sparkloop&quot;:null,&quot;googletagmanager&quot;:null},&quot;modal&quot;:{&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15},&quot;powered_by&quot;:{&quot;show&quot;:true,&quot;url&quot;:&quot;https://kit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic&quot;},&quot;recaptcha&quot;:{&quot;enabled&quot;:true},&quot;return_visitor&quot;:{&quot;action&quot;:&quot;show&quot;,&quot;custom_content&quot;:&quot;&quot;},&quot;slide_in&quot;:{&quot;display_in&quot;:&quot;bottom_right&quot;,&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15},&quot;sticky_bar&quot;:{&quot;display_in&quot;:&quot;top&quot;,&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15}},&quot;version&quot;:&quot;5&quot;}"
   className="seva-form formkit-form form-k"
-  style={{ backgroundColor: '#fff', maxWidth: '832px', maxHeight: "600px", height: "auto", margin: "0 auto 64px", borderRadius: '6px', display: 'flex', flexDirection: 'row' }}
+  style={{ backgroundColor: '#fff', maxWidth: '832px', minHeight: "600px", height: "auto", margin: "0 auto 64px", borderRadius: '6px', display: 'flex', flexDirection: 'row' }}
 >
   <div data-style="full">
     <div

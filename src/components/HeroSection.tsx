@@ -5,7 +5,7 @@ const HeroSection = () => {
   };
   return <section className="bg-white-900 text-black-900 py-16 px-4">
       
-      <div style={{ display: "flex", justifyContent: "center", marginBottom: "24px" }}>
+      <div style={{ display: "flex", justifyContent: "center", marginBottom: "0px" }}>
         <img
           src="/Metodo-GTY-Black-Trans.png" // coloque aqui a URL real do seu logo
           alt="Logo GTY Studio"
@@ -14,7 +14,7 @@ const HeroSection = () => {
       </div>
 
       <div className="container mx-auto max-w-5xl">
-        <div className="text-center mb-8">
+        <div className="text-center mb-10">
           <span className="inline-block bg-orange-600 font-bold px-4 py-1 rounded-full text-sm mb-6 text-white">
             PRIMEIRA TURMA OFICIAL
           </span>
